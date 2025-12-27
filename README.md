@@ -6,6 +6,7 @@ as propriedades básicas da linguagem de estilização, além de trabalhar com a
 [Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
 
 ![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+<img width="782" height="935" alt="capa" src="https://github.com/user-attachments/assets/2ae61211-88f0-4fae-9f48-6c6c84ad0dfe" />
 
 Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
 Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
@@ -19,4 +20,5 @@ que você possa se basear.
 é necessário utilizar a propriedade -webkit-background-clip: text;*
 
 Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
+
 utilizando o comando `git checkout final` no seu terminal.
