@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>Assistindo youtube</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-backgroound">
+            <div class="menu-esquerdo">      
+            <img class="menu" src="./assets/menu.png" alt="icone de menu 3 barras">
+            <img class="logo-youtube" src="./assets/youtube 1.png" alt="logo do youtube">
+        </div>
+
+        <div class="menu-centro">
+            <label for="search" class="sr-only"></label>
+            <input id="search" class="search" type="search" placeholder="Pesquisar">
+            <div class="lupa">
+                <img class="img-lupa" src="./assets/search.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="menu-direito">
+
+            <button aria-label="Criar" class="btn-criar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 3a1 1 0 0 0-1 1v7H4a1 1 0 0 0 0 2h7v7a1 1 0 0 0 2 0v-7h7a1 1 0 0 0 0-2h-7V4a1 1 0 0 0-1-1Z"/>
+                </svg>
+                <span class="criar">Criar</span>
+            </button>
+            <div class="background-bell">
+                <img class="bell" src="./assets/bell.png" alt="icone do sininho de assinoar notificação do youtube">
+            </div>
+            <img class="avatar" src="./assets/Avatar.png" alt="">
+        </div>
+        </div>
+    </header>
+
+
+    <main class="conteudo-principal">
+        <section class="video">            
+            <article class="video-dio">
+                <img class="img-video-dio" src="./assets/videio-dio.png" alt="">
+                               
+            </article>
+
+            <div>
+                <h1  class="titulo">Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+            </div>
+
+            
+
+            <div class="video-actions">
+
+                <aside class="dio-avatar">                
+                    <img class="img-avatar" src="./assets/Channel Avatar.png" alt="logo da dio">
+                    
+                    <div class="dio-inscritos">
+                        <a class="link-dio" href="https://www.youtube.com/@diomakethechange" target="_blank">DIO</a>
+                        <p class="quantidade-inscritos">129 mil inscritos</p>
+                    </div>
+                </aside>
+
+                <div class="inscreva-se">
+                <button class="btn-inscreva">INSCREVA-SE</button>
+                </div>
+
+
+                <button class="btn-social" aria-label="Curtir">
+                    <img src="./assets/like.png" alt="">
+                    <span>10 mil</span>
+                </button>
+
+                <button class="btn-social" aria-label="dislike">
+                    <img src="./assets/dislike.png" alt="">
+                    <span>Não gostei</span>
+                </button>
+
+                <button class="btn-social" aria-label="compartilhar">
+                    <img src="./assets/share-2.png" alt="">
+                    <span>Compartilhar</span>
+                </button>
+
+                <button class="btn-social" aria-label="download">
+                    <img src="./assets/download.png" alt="">
+                    <span>Download</span>
+                </button>
+            </div>
+
+            <section class="video-info">
+                <p class="video-meta">
+                    28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022
+                </p>
+                <p class="video-descricao">
+                    Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+                    Para isso, criaremos uma landing page com a temática da série Stranger Things,
+                    a qual contará com a implementação de um theme switcher (light e dark) para
+                    explorarmos os mistérios do mundo invertido.
+                </p>
+            </section>
+        </section>
+
+
+        <!-- Barra lateral sugestões-->
+
+        <aside class="videos-recomendados">
+            <div class="background-recomendados">
+                <article class="suggestion">
+                    <img src="./assets/Thumb.png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 2,1 mil visualizações<br>
+                            Transmitido há 2 dias
+                        </p>                    
+                    </div>
+                </article>
+                
+                <article class="suggestion">
+                    <img src="./assets/image 12 (1).png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 1,6 mil visualizações
+                            <br>
+                            Transmitido há 3 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/image 13 (1).png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 1,7 mil visualizações
+                            <br>
+                            Transmitido há 4 dias
+                        </p>                    
+                    </div>
+                </article>
+                <article class="suggestion">
+                    <img src="./assets/image 14 (1).png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Global Skills #2 - Project Planning</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 971 visualizações
+                            <br>
+                            Transmitido há 5 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/image 15.png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Como aprender a programar Python do ZERO</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 711 visualizações
+                            <br>
+                            Transmitido há 6 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/Thumb (1).png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 2,1 mil visualizações
+                            <br>
+                            Transmitido há 2 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/image 12.png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 1,6 mil visualizações
+                            <br>
+                            Transmitido há 3 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/image 13.png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 1,7 mil visualizações
+                            <br>
+                            Transmitido há 4 dias
+                        </p>                    
+                    </div>
+                </article>
+
+                <article class="suggestion">
+                    <img src="./assets/image 14.png" alt="">
+                    <div class="suggestion-info">
+                        <h3>Global Skills #2 - Project Planning</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p> 971 visualizações
+                            <br>
+                            Transmitido há 5 dias
+                        </p>                    
+                    </div>
+                </article>
+            </div>
+        </aside>
+
+
+    </main>
+
+
+
+
+
+</body>
+</html>
